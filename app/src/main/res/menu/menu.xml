@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="@string/menu_item_choose_quiz"
+        android:id="@+id/item_sub_menu_choose_quiz"
+        android:showAsAction='never'
+        tools:ignore="AppCompatResource" />
+
+    <item android:title="@string/menu_item_manage_card"
+        android:id="@+id/item_sub_menu_manage_card"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource">
+        <menu >
+            <item android:title="@string/menu_item_create_card"
+                android:id="@+id/item_create_card"
+                android:showAsAction="never" />
+            <item android:title="@string/menu_item_delete_card"
+                android:id="@+id/item_delete_card"
+                android:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:title="@string/menu_item_manage_decks"
+        android:id="@+id/item_sub_menu_manage_decks"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource">
+        <menu >
+            <item android:title="@string/menu_item_create_edit_delete_decks"
+                android:id="@+id/item_ced_decks"
+                android:showAsAction="never" />
+            <item android:title="@string/menu_item_share"
+                android:id="@+id/item_share"
+                android:showAsAction="never" />
+            <item android:title="@string/menu_item_receive_decks"
+                android:id="@+id/item_receive"
+                android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

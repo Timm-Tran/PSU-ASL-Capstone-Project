@@ -1,0 +1,124 @@
+<resources>
+    <string-array name="quizTypesArray">
+        <item>Multiple Choice</item>
+        <item>Flash Card</item>
+        <item>Write Up</item>
+    </string-array>
+    <string name="app_name">PDXASLApp</string>
+
+    <!-- Activities Headers -->
+    <string name="header_home_screen">ASL</string>
+    <string name="header_take_quiz_submenu">Choose Quiz Type</string>
+
+    <!-- Button Strings-->
+    <string name="button_take_quiz">Take Quiz</string>
+    <string name="button_manage_decks">Manage Decks</string>
+    <string name="button_manage_cards">Manage Cards</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_share">Share</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_delete_card">Delete Card</string>
+    <string name="button_create">Create</string>
+    <string name="button_receive_deck">Receive Deck</string>
+    <string name="button_share_deck">Share Deck</string>
+    <string name="button_create_edit_delete_deck">Create/Edit/Delete Decks</string>
+    <string name="button_create_card">Create Card</string>
+    <string name="button_home">Home</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Buttons for quiz selection submenu -->
+    <string name="button_multiple_choice">Multiple Choice</string>
+    <string name="button_flash_card">Flash Card</string>
+    <string name="button_flash_card_next_question">Next</string>
+    <string name="button_flash_card_show_answer">Show Answer</string>
+    <string name="button_write_up">Write Up</string>
+    <string name="button_ten_questions">10</string>
+    <string name="button_thirty_questions">30</string>
+    <string name="button_fifty_questions">50</string>
+    <string name="button_all_questions">All</string>
+
+    <!-- Labels -->
+    <string name="label_choose_quiz_type">Choose Quiz Type</string>
+    <string name="label_choose_number_of_questions">Choose Number of Questions</string>
+    <string name="label_choose_decks">Choose Decks</string>
+    <string name="quiz_complete">Quiz Complete!</string>
+
+    <!-- User Help Prompts -->
+    <string name="prompt_text_field">Type Here</string>
+    <string name="prompt_card_name">Card Name</string>
+
+    <!-- Place Holders -->
+    <string name="placeholder_answer">this is an answer for this video. this is an answer for this video. this is an answer for this video. this is an answer for this video. this is an answer for this video.  this is an answer for this video.</string>
+    <string name="textView_no_video">No Video Imported</string>
+    <string name="button_import_video">+</string>
+    <string name="edit_text_card_answer">Enter Card Answer</string>
+    <string name="list_row_name">Row\'s Name</string>
+    <string name="edit_text_video_description">Enter Video Description</string>
+    <string name="list_row_deck_name">Deck\'s Name</string>
+    <string name="button_record_video">Record New Video</string>
+    <string name="button_select_video">Add From Gallery</string>
+    <string name="add_video_text">Create new video or add from gallery?</string>
+    <string name="button_use_video">Use This Video</string>
+
+    <!-- Deck creation/editing strings -->
+    <string name="no_decks_msg">There aren\'t any decks to list!</string>
+    <string name="deck_name_length_error">"Deck name must be at least 1 character and less than "</string>
+    <string name="deck_size_error">Select at least two cards</string>
+    <string name="deck_already_exists_error">Deck already exists</string>
+    <string name="deck_not_selected">Select a deck</string>
+
+    <!-- Card creation/deletion strings -->
+    <string name="importing_video">Importing video</string>
+    <string name="card_already_exists">There\'s already a card using this video</string>
+    <string name="card_select_deck_error">Please select at least one deck</string>
+    <string name="card_record_video_error">Record video failed</string>
+    <string name="card_camera_perm_error">Camera not available</string>
+    <string name="extrnl_storage_perm_error">External storage permissions denied</string>
+    <string name="closing_app">The app will now close</string>
+    <string name="card_uri_error">Error: Missing Uri!</string>
+    <string name="card_name_lngth_error1">"Label length should be greater than "</string>
+    <string name="card_name_lngth_error2">" characters and less than "</string>
+    <string name="select_video">Select video</string>
+    <string name="select_card">Please select a card</string>
+    <string name="deleted_decks">"The following decks will be deleted: "</string>
+    <string name="import_video_error">Problem importing video</string>
+    <string name="card_in_use_error">Card is still in use</string>
+
+    <!-- Edit Card/Share Card strings -->
+    <string name="button_record">Record</string>
+    <string name="button_get_from_gallery">Gallery</string>
+    <string name="button_edit_video">Edit</string>
+    <string name="share_label">Scan QR Code To Share</string>
+    <string name="deck_error">No Deck Selected</string>
+    <string name="shared_counter">Successful Downloads</string>
+    <string name="button_scan_qr_code">Scan QR Code</string>
+    <string name="delete_from_gallery">Delete From Gallery?</string>
+    <string name="NO">No</string>
+    <string name="YES">Yes</string>
+    <string name="Dont_delete_from_gal">Save to Gallery</string>
+    <string name="textview">TextView</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="start_stop_edit">Edit Start/Stop time</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="start_time_label">Start time: not set (sec)</string>
+    <string name="stop_time_label">Stop time: not set (sec)</string>
+    <string name="prompt_start_scanning">Press Scan Button to Start Scanning Process</string>
+    <string name="menu_item_choose_quiz">CHOOSE QUIZ</string>
+    <string name="menu_item_manage_card">MANAGE CARD</string>
+    <string name="menu_item_create_card">Create Card</string>
+    <string name="menu_item_create_edit_delete_decks">Create/Edit/Delete Decks</string>
+    <string name="menu_item_delete_card">Delete Card</string>
+    <string name="menu_item_manage_decks">MANAGE DECKS</string>
+    <string name="menu_item_receive_decks">Receive Decks</string>
+    <string name="menu_item_share">Share</string>
+    <string name="start_time_default">Start time: %1$f (sec)</string>
+    <string name="stop_time_default">Stop time: %1$f (sec)</string>
+    <string name="seekBar_startSeeking_msg">Start seeking</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="seekDisplayEditCard">Seek Position: %1$f (seconds)</string>
+    <string name="seekDisplayDefault">Seek Position: 0.0 (seconds)</string>
+    <string name="title_activity_no_extrnl_strg_prms">NoExtrnlStrgPrmsActivity</string>
+</resources>
